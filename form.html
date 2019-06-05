@@ -1,0 +1,101 @@
+<!DOCType Html>
+
+<html>
+	<head>
+		<title>Htlm From</title>
+	</head>
+	<style>
+		table{
+			background:#ddd;
+			}
+		th{
+			text-align:left;
+		}
+		table, th, td{
+		padding:8px;
+		}
+		input[type="text"], input[type="email"], input[type="password"]{
+		padding:5px;
+		height:25px;
+		width:400px;
+		}
+		select{
+		padding:5px;
+		height:40px;
+		width:400px;
+		}
+		.btn{
+			height:40px;
+			padding:8px;
+			background:#00ffff;
+			color:#fff;
+			border:none;
+			border-radius:8px;
+			font:16p/1.5 verdina, arial, sans-serif;
+			font-weight:bold;
+			
+		}
+	</style>
+	<body>
+	<fieldset  style="border:2px solid red; width:45%; margin-right:20px;"><legend style="border:2px solid red;">Employee Form</legend>
+	<table>
+		<form method="post" action="" enctype="multipart/form-data">
+			<tr>
+				<th><label>FullName:</label></th>
+				<td><input type="text" name="FullName" placeholder="Enter fullname"></td>
+			</tr>
+			<tr>
+				<th><label>Email:</label></th>
+				<td><input type="email" name="email Address" placeholder="enter email.........."></td>
+				</tr>
+			<tr>
+				<th><label>choose Password:</label></th>
+				<td><input type="password" name="User Password" placeholder="choose a password.."></td>
+			</tr>
+			<tr>
+				<th><label>profile image</label></th>
+				<td><input type="file" name="profile image"></td>
+			</tr>
+			<tr>
+				<th><label>Nationality:</label></th>
+				<td>
+					<select name="nationality">
+							<option value ="Country"> SelectCountry</option>
+						<option value ="Nigeria"> Nigeria</option>
+						<option value ="Liberia"> Liberia</option>
+						<option value ="Guinea"> Guinea</option>
+						<option value ="USA"> USA</option>
+						<option value ="Ghana"> Ghana</option>
+						<option value ="Togo"> Togo</option>
+						<option value ="Gambia"> Gambia</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th><label>Your Hobies:</label></th>
+				<td><input type="Checkbox" name="hobies1" value="swiming"> Swiming
+					<input type="Checkbox" name="hobies2" value="Reading"> Reading
+					<input type="Checkbox" name="hobies3" value="Movies"> Movies
+					<input type="Checkbox" name="hobies4" value="Gyming"> Gyming
+					<input type="Checkbox" name="hobies5" value="Succer"> Succer
+				</td>
+			</tr>
+			<tr>
+				<th><label>Gender:</label></th>
+				<td><input type ="radio" name ="gender" value ="male"> Male 
+			<input type ="radio" name ="gender" value ="Female"> Female </td>
+			</tr>
+			 <tr>
+				<th><label>remarks:</label></th>
+				<td><textarea name="Remarks" rows="10" cols="50" style="resize:none"></textarea></td>
+			</tr>
+			<tr>
+				<th><label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</label></th>
+				<td><button  class="btn" type ="Submit" value ="Submit Now">Save</button></td>
+			</tr>
+			
+			</form>
+	</table>		
+			</fieldset>
+	</body>
+</html>
